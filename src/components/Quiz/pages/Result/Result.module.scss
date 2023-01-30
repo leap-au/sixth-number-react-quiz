@@ -33,9 +33,22 @@
   }
 
   .description {
-    margin: 10px 20px 0;
-    font-size: 16px;
-    line-height: 130%;
+	  color: #ffffff;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+	  text-decoration: none;
+	  background-color: #050a30;
+	  padding: 14px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+    border-radius:5px;
+  }
+  
+  a:link, a:visited {
+	color: white;
   }
 
   .restart-button-container {
