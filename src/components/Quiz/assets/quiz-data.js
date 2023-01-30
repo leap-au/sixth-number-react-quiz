@@ -267,7 +267,8 @@ const quizData = {
         from: 0,
         to: 6,
       },
-      title: 'You only got a few questions right.  Please restart the Quiz to achieve 70% or higher.',
+      title: 'You only got a few questions right.',
+      subtitle: 'Please restart the Quiz to achieve 70% or higher.',
       description:
         'Restart',
 	  img: 'result-example.jpg',
@@ -279,6 +280,7 @@ const quizData = {
         to: 7,
       },
       title: 'Congratulations, you scored 70%!',
+      subtitle: 'Please accelerate to the next quiz.',
       description:
         'Accelerate',
 	  img: 'result-example.jpg',
@@ -290,6 +292,7 @@ const quizData = {
         to: 8,
       },
       title: 'Congratulations, you scored 80%!',
+      subtitle: 'Please accelerate to the next quiz.',
       description:
         'Accelerate',
 	  img: 'result-example.jpg',
@@ -301,6 +304,7 @@ const quizData = {
         to: 9,
       },
       title: 'Congratulations, you scored 90%!,
+      subtitle: 'Please accelerate to the next quiz.',
       description:
         'Accelerate',
 	  img: 'result-example.jpg',
@@ -312,6 +316,7 @@ const quizData = {
         to: 10,
       },
       title: 'Congratulations, you got everything right!',
+      subtitle: 'Please accelerate to the next quiz.',	  
       description:
         'Accelerate',
       img: 'result-example.jpg',
