@@ -51,7 +51,13 @@ function Result({
         <strong>{chosenResult.title}</strong>
       </div>
 
-		<br/>
+	<br/>
+      
+      <div className={styles.subtitle}>
+        {chosenResult.subtitle}     
+      </div>
+
+        <br/>
     
       <div className={styles.description}>
 	    <a href="https://master.d2jvvioeoze9ca.amplifyapp.com/">{chosenResult.description}</a>
