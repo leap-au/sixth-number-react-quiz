@@ -51,20 +51,12 @@ function Result({
         <strong>{chosenResult.title}</strong>
       </div>
 
-      <div className={styles.description}>{chosenResult.description}</div>
-
-      <div className={styles['restart-button-container']}>
-        <Button
-          text="Restart"
-          onButtonClick={onClickRestart}
-          inlineStyle={{
-            fontSize: '11px',
-            lineHeight: '13px',
-          }}
-          iconRight={iconRight}
-        />
-      </div>
-
+		<br/>
+    
+      <div className={styles.description}>
+	    <a href="https://master.d11n3fsmquaz3o.amplifyapp.com/">{chosenResult.description}</a>
+	  </div>
+    
       <div className={styles['share-message']}>Share your result</div>
       <div className={styles['share-buttons-container']}>
         <ShareButtons
