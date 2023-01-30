@@ -303,7 +303,7 @@ const quizData = {
         from: 9,
         to: 9,
       },
-      title: 'Congratulations, you scored 90%!,
+      title: 'Congratulations, you scored 90%!',
       subtitle: 'Please accelerate to the next quiz.',
       description:
         'Accelerate',
