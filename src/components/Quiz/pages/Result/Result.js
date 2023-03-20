@@ -60,7 +60,7 @@ function Result({
         <br/>
     
       <div className={styles.description}>
-	    <a href="https://master.d2jvvioeoze9ca.amplifyapp.com/">{chosenResult.description}</a>
+	    <a href="https://leap-au.azurewebsites.net/Lessons/SeventhGradeNSLesson">{chosenResult.description}</a>
 	  </div>
     
       <div className={styles['share-message']}>Share your result</div>
