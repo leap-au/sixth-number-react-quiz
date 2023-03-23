@@ -63,6 +63,10 @@ function Result({
 	    <a href="https://leap-au.azurewebsites.net/Lessons/SeventhGradeNSLesson">{chosenResult.description}</a>
 	  </div>
     
+          <div className={styles.description}>
+	    <a href="https://leap-au.azurewebsites.net/Lessons/SixthGradeNSLesson">{chosenResult.subdescription}</a>
+	  </div>
+	  
       <div className={styles['share-message']}>Share your result</div>
       <div className={styles['share-buttons-container']}>
         <ShareButtons
