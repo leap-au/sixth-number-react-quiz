@@ -268,7 +268,7 @@ const quizData = {
         to: 6,
       },
       title: 'You only got a few questions right.',
-      subtitle: 'Please restart the Quiz to achieve 70% or higher.',
+      subtitle: 'Please return to the lesson to achieve 70% or higher on the quiz.',
       description:
         'Restart',
 	  img: 'result-example.jpg',
