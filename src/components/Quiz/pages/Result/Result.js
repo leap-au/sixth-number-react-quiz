@@ -59,7 +59,7 @@ function Result({
 
         <br/>
    
-         <div className={styles['start-button-container']}>
+         <div className={styles['restart-button-container']}>
  		<p className={styles.description}><a href="https://leap-au.azurewebsites.net/Lessons/SeventhGradeNSLesson">{chosenResult.description}</a></p>
 		<p className={styles.description}><a href="https://leap-au.azurewebsites.net/Lessons/SixthGradeNSLesson">{chosenResult.subdescription}</a></p>	  
 	  </div>
