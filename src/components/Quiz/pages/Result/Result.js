@@ -59,10 +59,25 @@ function Result({
 
         <br/>
    
-         <div className={styles['restart-button-container']}>
- 		<p className={styles.description}><a href="https://leap-au.azurewebsites.net/Lessons/SeventhGradeNSLesson">{chosenResult.description}</a></p>
-		<p className={styles.description}><a href="https://leap-au.azurewebsites.net/Lessons/SixthGradeNSLesson">{chosenResult.subdescription}</a></p>	  
+
+      <div className={styles.description}>
+	    <a href="https://leap-au.azurewebsites.net/Lessons/SeventhGradeNSLesson">{chosenResult.description}</a>
 	  </div>
+	  
+	  <br/>
+	  <br/>
+	  
+	        <div className={styles['restart-button-container']}>
+        <Button
+          text="Restart"
+          onButtonClick={onClickRestart}
+          inlineStyle={{
+            fontSize: '11px',
+            lineHeight: '13px',
+          }}
+          iconRight={iconRight}
+        />
+      </div>
 	  
       <div className={styles['share-message']}>Share your result</div>
       <div className={styles['share-buttons-container']}>
