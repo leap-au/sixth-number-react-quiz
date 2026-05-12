@@ -34,7 +34,7 @@ function ShareButton({ shareUrl, shareMessage, hashtags, socialMedia, icon }) {
       rel="noopener noreferrer"
       className="share-button"
       target="_blank"
-      title="Compartilhar"
+      title="Social Media"
     >
       <img alt={socialMedia} src={icon} />
     </a>
